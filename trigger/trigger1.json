@@ -1,0 +1,31 @@
+{
+	"name": "trigger1",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "MoveCSVFilePipeline",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Month",
+				"interval": 9,
+				"startTime": "2025-07-10T02:10:00",
+				"timeZone": "India Standard Time",
+				"schedule": {
+					"monthDays": [
+						1,
+						17,
+						15
+					]
+				}
+			}
+		}
+	}
+}

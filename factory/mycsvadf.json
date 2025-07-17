@@ -1,0 +1,9 @@
+{
+	"name": "mycsvadf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "85e2d779-7630-4c4e-97c9-5cca01cd667c",
+		"tenantId": "3feefaaf-dcd2-4ac2-b0c3-a2cdb4fc5620"
+	}
+}
